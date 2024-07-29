@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "get": {
+      "commandName": "Project",
+      "commandLineArgs": "-get Id:32\r\n"
+    },
+    "getAll": {
+      "commandName": "Project",
+      "commandLineArgs": "-getAll\r\n"
+    },
+    "update": {
+      "commandName": "Project",
+      "commandLineArgs": "-update Id:32 FirstName:Max LastName:Dern Salary:121"
+    },
+    "delete": {
+      "commandName": "Project",
+      "commandLineArgs": "-delete Id:32"
+    },
+    "add": {
+      "commandName": "Project",
+      "commandLineArgs": "-add FirstName:John LastName:Doe Salary:100.50"
+    }
+  }
+}
